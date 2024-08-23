@@ -22,8 +22,9 @@ const Skills = () => (
       <li>Bash</li>
       <li>PowerShell</li>
       <li>Linux</li>
-      <li>Problem Solving</li>
-      <li>Leadership Skills</li>
+      <li>Git</li>
+      <li>Docker</li>
+      <li>MongoDB</li>
     </ul>
   </section>
 );

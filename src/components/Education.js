@@ -8,6 +8,7 @@ const Education = () => (
     <ul>
       <li>Minor - Mathematics</li>
       <li>Studied Abroad - Spain | Relevant Courses: Linear Algebra, Statistics | Summer 2022</li>
+      <li>Graduated with Cum Laude</li>
       <li>Dean's List of Texas Tech University | December 2020 to August 2024</li>
     </ul>
   </section>

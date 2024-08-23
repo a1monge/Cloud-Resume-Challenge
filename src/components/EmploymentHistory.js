@@ -1,7 +1,7 @@
 import React from 'react';
 
 const EmploymentHistory = () => (
-  <section className="mb-4">
+  <section className="section">
     <h2>Employment History</h2>
     <p><strong>Texas Tech Hospitality Services | Student Manager | Lubbock, TX</strong></p>
     <p>Jan 2021 – August 2024</p>

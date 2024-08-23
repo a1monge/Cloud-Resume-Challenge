@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Objective = () => (
-  <section className="mb-4">
+  <section className="objective mb-4">
     <h2>Objective</h2>
     <p>
       Eager Computer Science graduate with a strong focus on cloud development and full-stack technologies.
