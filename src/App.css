@@ -6,7 +6,7 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
-  font-size: 2rem;
+  font-size: 1.2rem;
   /* Base font size doubled */
 }
 
@@ -30,7 +30,7 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 4rem;
+  font-size: 3.2rem;
   /* Doubled font size */
 }
 
@@ -44,7 +44,7 @@ header h1 {
 .contact-info p {
   margin: 10px 0;
   /* Increased margin */
-  font-size: 2.4rem;
+  font-size: 1.7rem;
   /* Doubled font size */
 }
 
@@ -62,7 +62,7 @@ section {
 section h2 {
   margin-top: 0;
   color: #333;
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   /* Doubled font size */
 }
 
@@ -75,13 +75,13 @@ ul {
 ul li {
   margin-bottom: 20px;
   /* Increased margin */
-  font-size: 2rem;
+  font-size: 1.2rem;
   /* Doubled font size */
 }
 
 /* Paragraph Styles */
 p {
-  font-size: 2rem;
+  font-size: 1.2rem;
   /* Doubled font size */
 }
 
@@ -91,12 +91,12 @@ p {
 .employment-title {
   font-weight: bold;
   color: #555;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   /* Doubled font size */
 }
 
 .link-title{
-  font-size: 2.5rem;
+  font-size: 1.7rem;
 }
 
 /* Skills Section */
@@ -110,14 +110,14 @@ p {
   border-radius: 5px;
   margin-bottom: 10px;
   /* Increased margin */
-  font-size: 1.8rem;
+  font-size: 1rem;
   /* Doubled font size */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   header h1 {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     /* Adjusted for smaller screens */
   }
 
@@ -132,36 +132,36 @@ p {
   }
 
   .skills-section ul li {
-    font-size: 1.6rem;
+    font-size: 0.8rem;
     /* Adjusted for smaller screens */
     margin-right: 10px;
     /* Adjusted margin */
   }
 
   .objective {
-    font-size: 2rem;
+    font-size: 1.2rem;
     /* Consistent across sections */
   }
 }
 
 @media (max-width: 480px) {
   header h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     /* Further reduced for mobile */
   }
 
   section h2 {
-    font-size: 2.4rem;
+    font-size: 1.7rem;
     /* Smaller for mobile view */
   }
 
   .skills-section ul li {
-    font-size: 1.4rem;
+    font-size: 0.7rem;
     /* Smallest size for smallest screens */
   }
 
   .contact-info p {
-    font-size: 1.8rem;
+    font-size: 1rem;
     /* Adjusted for mobile */
   }
 }
