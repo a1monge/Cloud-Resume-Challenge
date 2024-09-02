@@ -6,7 +6,7 @@ const VisitorCounter = () => {
   
   useEffect(() => {
     // Replace with your actual API endpoint
-    const apiUrl = 'https://{api-id}.execute-api.{region}.amazonaws.com/{stage-name}/visitor-counter';
+    const apiUrl = 'https://waqme3i9e4.execute-api.us-east-1.amazonaws.com/prod/incrementCounter';
 
     const fetchVisitorCount = async () => {
       try {
