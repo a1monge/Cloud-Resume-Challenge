@@ -6,11 +6,13 @@ import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import EmploymentHistory from './components/EmploymentHistory';
 import Skills from './components/Skills';
+import VisitorCounter from './components/VisitorCounter';
 import './App.css';
 
 function App() {
   return (
     <div className="container mt-4">
+      <VisitorCounter/>
       <Header />
       <Objective />
       <Education />
