@@ -11,15 +11,19 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.8'
 
       - name: Install dependencies
         run: pip install boto3
+
+      - name: Prepare deployment package
+        run: |
+          zip -r function.zip . -x ".git/*" ".github/*"
 
       - name: Deploy to AWS Lambda
         env:
@@ -27,5 +31,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-east-1'  # Change this to your AWS region
         run: |
-          zip -r function.zip .
           aws lambda update-function-code --function-name LmbdaVistiorCounter --zip-file fileb://function.zip
