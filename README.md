@@ -35,22 +35,22 @@ This project implements a serverless cloud-based solution that dynamically hosts
 - **AWS S3**: Hosts the static website globally served using **CloudFront**.
 
 ### CI/CD Pipeline
-# The project uses GitHub Actions to automate deployment:
+- The project uses GitHub Actions to automate deployment:
 
-# Linting & Testing: Runs tests for the backend (Lambda) code.
-# Build & Deploy: If tests pass, Terraform deploys the backend resources, and the React app is built and deployed to the S3 bucket.
+- Linting & Testing: Runs tests for the backend (Lambda) code.
+- Build & Deploy: If tests pass, Terraform deploys the backend resources, and the React app is built and deployed to the S3 bucket.
 
 ## Lessons Learned
-# Serverless Computing: Learned how to build a serverless architecture using AWS Lambda.
-# Infrastructure as Code: Gained experience using Terraform to automate AWS resource provisioning.
-# CI/CD Pipelines: Implemented a full CI/CD pipeline with GitHub Actions, automating the deployment of both frontend and backend components.
-# DNS and Security: Used Route 53 for custom domain setup, ACM for SSL certificates, and CloudFront for content delivery.
-# Responsive Design: Bootstrap ensured that the website was fully responsive and visually appealing on all device sizes.
+- Serverless Computing: Learned how to build a serverless architecture using AWS Lambda.
+- Infrastructure as Code: Gained experience using Terraform to automate AWS resource provisioning.
+- CI/CD Pipelines: Implemented a full CI/CD pipeline with GitHub Actions, automating the deployment of both frontend and backend components.
+- DNS and Security: Used Route 53 for custom domain setup, ACM for SSL certificates, and CloudFront for content delivery.
+- Responsive Design: Bootstrap ensured that the website was fully responsive and visually appealing on all device sizes.
 
 ## Future Improvements
-# Improve design and layout of the website
-# Extend Terraform configuration to manage Route53 and ACM more efficiently.
-# Add additional features like logging and monitoring with AWS CloudWatch.
-# Expand the visitor counter to track more detailed metrics, such as geolocation data.
+- Improve design and layout of the website
+- Extend Terraform configuration to manage Route53 and ACM more efficiently.
+- Add additional features like logging and monitoring with AWS CloudWatch.
+- Expand the visitor counter to track more detailed metrics, such as geolocation data.
 
 ### Website URL: https://almonge-resume.com
