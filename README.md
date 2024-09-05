@@ -13,7 +13,7 @@ This project implements a serverless cloud-based solution that dynamically hosts
 
 ## Architecture Diagram
 
-![Cloud Architecture Diagram](./ResumeChallenge/Cloud%20Resume.drawio.png)
+![Cloud Architecture Diagram](./Cloud%20Resume.drawio.png)
 
 
 ## Tech Stack
