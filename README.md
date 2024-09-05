@@ -20,6 +20,7 @@ This project implements a serverless cloud-based solution that dynamically hosts
 
 ### Frontend
 - **React.js**: JavaScript library used to build the resume as a dynamic single-page application (SPA).
+- **Node.js**: Used to build the react app to upload onto S3.
 - **JavaScript**: Manages API calls and frontend functionality.
 - **Bootstrap**: CSS framework for responsive design and styling.
 - **HTML & CSS**: Used for basic layout and styling of the resume.
