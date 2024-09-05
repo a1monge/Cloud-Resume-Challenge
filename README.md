@@ -11,7 +11,9 @@ This project implements a serverless cloud-based solution that dynamically hosts
 - **CI/CD Pipeline**: Deployed via GitHub Actions, automating testing and deployment of front and backend components.
 - **Infrastructure as Code**: Entire infrastructure is defined and provisioned using **Terraform**.
 
----
+## Architecture Diagram
+
+![Cloud Architecture Diagram](./Cloud Resume.draw.io.png)
 
 ## Tech Stack
 
