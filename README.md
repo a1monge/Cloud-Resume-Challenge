@@ -19,8 +19,9 @@ This project implements a serverless cloud-based solution that dynamically hosts
 ## Tech Stack
 
 ### Frontend
-- **HTML & CSS**: Basic web development technologies used to create the resume.
-- **JavaScript**: Manages the visitor counter functionality by calling the API.
+- **React.js**: JavaScript library used to build the resume as a dynamic single-page application (SPA).
+- **JavaScript**: Manages API calls and frontend functionality.
+- **HTML & CSS**: Used for basic layout and styling of the resume.
 
 ### Backend
 - **AWS Lambda**: Serverless functions written in Python for handling API requests.
