@@ -13,7 +13,8 @@ This project implements a serverless cloud-based solution that dynamically hosts
 
 ## Architecture Diagram
 
-![Cloud Architecture Diagram](./Cloud Resume.draw.io.png)
+![Cloud Architecture Diagram](./ResumeChallenge/Cloud%20Resume.drawio.png)
+
 
 ## Tech Stack
 
