@@ -28,3 +28,5 @@ This project implements a serverless cloud-based solution that dynamically hosts
 - **Terraform**: Used for managing and provisioning AWS infrastructure resources, including S3, DynamoDB, Lambda, and API Gateway.
 - **GitHub Actions**: Automates CI/CD processes for deploying frontend (S3) and backend (Lambda, DynamoDB).
 - **AWS S3**: Hosts the static website globally served using **CloudFront**.
+
+### Website URL: https://almonge-resume.com
