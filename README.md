@@ -9,7 +9,7 @@ This project implements a serverless cloud-based solution that dynamically hosts
 - **Visitor Counter**: A dynamic counter tracks the number of visitors, using DynamoDB for storage and API Gateway to communicate with the backend.
 - **Serverless Architecture**: AWS Lambda interacts with the DynamoDB database to update and retrieve visitor counts.
 - **CI/CD Pipeline**: Deployed via GitHub Actions, automating testing and deployment of front and backend components. (In Progress)
-- **Infrastructure as Code**: Entire infrastructure is defined and provisioned using **Terraform**.n(In Progress)
+- **Infrastructure as Code**: Entire infrastructure is defined and provisioned using **Terraform**. (In Progress)
 
 ## Architecture Diagram
 
@@ -49,7 +49,7 @@ This project implements a serverless cloud-based solution that dynamically hosts
 - Responsive Design: Bootstrap ensured that the website was fully responsive and visually appealing on all device sizes.
 
 ## Future Improvements
-- Improve design and layout of the website
+- Improve the design and layout of the website
 - Extend Terraform configuration to manage Route53 and ACM more efficiently.
 - Add additional features like logging and monitoring with AWS CloudWatch.
 - Expand the visitor counter to track more detailed metrics, such as geolocation data.
