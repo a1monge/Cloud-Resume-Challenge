@@ -1,5 +1,8 @@
 # Cloud Resume Challenge 
 
+### Backend Repository: https://github.com/a1monge/Resume-Challenge-Backend
+### Website URL: https://almonge-resume.com
+
 ## Project Overview
 
 This project implements a serverless cloud-based solution that dynamically hosts my resume and tracks visitors to the page. The solution leverages AWS services like S3, DynamoDB, Lambda, and API Gateway. The infrastructure is managed using Terraform, and the deployment is automated through GitHub Actions for continuous integration and delivery (CI/CD).
@@ -9,7 +12,7 @@ This project implements a serverless cloud-based solution that dynamically hosts
 - **Visitor Counter**: A dynamic counter tracks the number of visitors, using DynamoDB for storage and API Gateway to communicate with the backend.
 - **Serverless Architecture**: AWS Lambda interacts with the DynamoDB database to update and retrieve visitor counts.
 - **CI/CD Pipeline**: Deployed via GitHub Actions, automating testing and deployment of front and backend components. (In Progress)
-- **Infrastructure as Code**: Entire infrastructure is defined and provisioned using **Terraform**. (In Progress)
+- **Infrastructure as Code**: Entire infrastructure is defined and provisioned using **Terraform**. 
 
 ## Architecture Diagram
 
@@ -53,6 +56,3 @@ This project implements a serverless cloud-based solution that dynamically hosts
 - Extend Terraform configuration to manage Route53 and ACM more efficiently.
 - Add additional features like logging and monitoring with AWS CloudWatch.
 - Expand the visitor counter to track more detailed metrics, such as geolocation data.
-
-### Backend Repository: https://github.com/a1monge/Resume-Challenge-Backend
-### Website URL: https://almonge-resume.com
