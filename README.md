@@ -1,6 +1,6 @@
 # Cloud Resume Challenge 
 
-### Backend Repository: https://github.com/a1monge/Resume-Challenge-Backend
+### Backend: https://github.com/a1monge/Resume-Challenge-Backend
 ### Website URL: https://almonge-resume.com
 
 ## Project Overview
