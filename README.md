@@ -11,7 +11,7 @@ This project implements a serverless cloud-based solution that dynamically hosts
 - **Static Website Hosting**: Hosted on AWS S3 as a static website.
 - **Visitor Counter**: A dynamic counter tracks the number of visitors, using DynamoDB for storage and API Gateway to communicate with the backend.
 - **Serverless Architecture**: AWS Lambda interacts with the DynamoDB database to update and retrieve visitor counts.
-- **CI/CD Pipeline**: Deployed via GitHub Actions, automating testing and deployment of front and backend components. (In Progress)
+- **CI/CD Pipeline**: Deployed via GitHub Actions, automating testing and deployment of front and backend components. 
 - **Infrastructure as Code**: Entire infrastructure is defined and provisioned using **Terraform**. 
 
 ## Architecture Diagram
